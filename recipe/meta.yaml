@@ -1,6 +1,6 @@
 {% set name = "google-cloud-texttospeech" %}
-{% set version = "1.0.1" %}
-{% set sha256 = "c5c66c148f6f47a213c8d53827c1dbf08cdf41f8047868433da0009e406e201e" %}
+{% set version = "2.3.0" %}
+{% set sha256 = "cf3b2c5675c0d717b7dbbd3210e44427d19d9b244f8d5d45e0405e95ff4043f7" %}
 
 package:
   name: {{ name|lower }}
@@ -33,11 +33,8 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: 'Google Cloud Text-to-Speech API client library'
-  description: Google Cloud Text-to-Speech API synthesizes natural-sounding speech 
-    by applying powerful neural network models.
-
-    See the [quick start guide](https://googleapis.dev/python/texttospeech/latest/index.html#quick-start).
+  summary: Google Cloud Text-to-Speech API client library
+  description: "Google Cloud Text-to-Speech API synthesizes natural-sounding speech by applying powerful neural network models.\nSee the [quick start guide](https://googleapis.dev/python/texttospeech/latest/index.html#quick-start)."
 
   doc_url: https://googleapis.dev/python/texttospeech/latest/index.html
   dev_url: https://github.com/googleapis/python-texttospeech
