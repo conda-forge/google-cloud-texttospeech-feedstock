@@ -21,7 +21,7 @@ requirements:
     - pip >=18.1
   run:
     - python >=3.6
-    - google-api-core-grpc >=1.17.0,<2.0.0dev
+    - google-api-core-grpc >=1.17.2,<2.0.0dev
     - proto-plus >=0.4.0
     - libcst >=0.2.5
 
