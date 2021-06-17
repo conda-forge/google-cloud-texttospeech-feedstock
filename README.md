@@ -5,9 +5,13 @@ Home: https://github.com/googleapis/python-texttospeech
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-texttospeech-feedstock/blob/master/LICENSE.txt)
 
 Summary: Google Cloud Text-to-Speech API client library
+
+Development: https://github.com/googleapis/python-texttospeech
+
+Documentation: https://googleapis.dev/python/texttospeech/latest/index.html
 
 Google Cloud Text-to-Speech API synthesizes natural-sounding speech by applying powerful neural network models.
 See the [quick start guide](https://googleapis.dev/python/texttospeech/latest/index.html#quick-start).
@@ -39,6 +43,7 @@ Installing `google-cloud-texttospeech` from the `conda-forge` channel can be ach
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `google-cloud-texttospeech` can be installed with:
@@ -109,9 +114,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
