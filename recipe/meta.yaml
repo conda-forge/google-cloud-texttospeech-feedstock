@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
@@ -29,6 +29,10 @@ test:
   imports:
     - grpc
     - google.cloud.texttospeech_v1
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://github.com/googleapis/python-texttospeech
