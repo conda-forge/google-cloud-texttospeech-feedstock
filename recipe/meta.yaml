@@ -1,6 +1,6 @@
 {% set name = "google-cloud-texttospeech" %}
-{% set version = "2.11.1" %}
-{% set sha256 = "e08ef39a364c8d78e4c6312dc1635b7afd2bc93388c8e5ac5640b8ead811caa7" %}
+{% set version = "2.12.0" %}
+{% set sha256 = "1dc2d8fdda56433b1f0a6c2dc1e3e276a943b8b1e694480b5047469073a076cc" %}
 
 package:
   name: {{ name|lower }}
