@@ -1,6 +1,6 @@
 {% set name = "google-cloud-texttospeech" %}
-{% set version = "2.11.1" %}
-{% set sha256 = "e08ef39a364c8d78e4c6312dc1635b7afd2bc93388c8e5ac5640b8ead811caa7" %}
+{% set version = "2.12.1" %}
+{% set sha256 = "256c189f3d76139e86ad4483a1ab41f296d2f92f42dd948fb310d6db919f0e10" %}
 
 package:
   name: {{ name|lower }}
@@ -22,8 +22,8 @@ requirements:
   run:
     - python >=3.6
     - google-api-core-grpc >=1.31.5,<3.0.0dev,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0
-    - proto-plus >=1.15.0,<2.0.0dev
-    - protobuf >=3.19.0,<4.0.0dev
+    - proto-plus >=1.22.0,<2.0.0dev
+    - protobuf >=3.19.0,<5.0.0dev
 
 test:
   imports:
