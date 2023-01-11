@@ -7,7 +7,7 @@ Package license: Apache-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-texttospeech-feedstock/blob/main/LICENSE.txt)
 
-Summary: Google Cloud Text-to-Speech API client library
+Summary: Google Cloud Texttospeech API client library
 
 Development: https://github.com/googleapis/python-texttospeech
 
