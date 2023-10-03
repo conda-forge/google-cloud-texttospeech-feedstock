@@ -34,7 +34,7 @@ test:
     - pip check
 
 about:
-  home: https://github.com/googleapis/python-texttospeech
+  home: https://github.com/googleapis/google-cloud-python
   summary: Google Cloud Texttospeech API client library
   license: Apache-2.0
   license_family: Apache
