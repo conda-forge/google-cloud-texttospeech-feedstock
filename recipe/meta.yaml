@@ -1,5 +1,5 @@
 {% set name = "google-cloud-texttospeech" %}
-{% set version = "2.14.1" %}
+{% set version = "2.14.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-texttospeech-{{ version }}.tar.gz
-  sha256: dd716f2a768ad67502cfd99b9925c51ffd6e16be93b410abeeffdaac190bfe81
+  sha256: a23738366988faf4d265200f57c5de4312efa3d14bb434b92a6e541713f5d906
 
 build:
   noarch: python
@@ -34,7 +34,7 @@ test:
     - pip check
 
 about:
-  home: https://github.com/googleapis/python-texttospeech
+  home: https://github.com/googleapis/google-cloud-python
   summary: Google Cloud Texttospeech API client library
   license: Apache-2.0
   license_family: Apache
