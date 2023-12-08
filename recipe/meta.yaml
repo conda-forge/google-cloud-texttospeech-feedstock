@@ -41,8 +41,8 @@ about:
   license_file: LICENSE
   description: "Google Cloud Text-to-Speech API synthesizes natural-sounding speech by applying powerful neural network models.\nSee the [quick start guide](https://googleapis.dev/python/texttospeech/latest/index.html#quick-start)."
 
-  doc_url: https://googleapis.dev/python/texttospeech/latest/index.html
-  dev_url: https://github.com/googleapis/python-texttospeech
+  doc_url: https://cloud.google.com/python/docs/reference/texttospeech/latest
+  dev_url: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-texttospeech
 
 extra:
   recipe-maintainers:
