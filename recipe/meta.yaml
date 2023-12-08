@@ -1,5 +1,5 @@
 {% set name = "google-cloud-texttospeech" %}
-{% set version = "2.14.2" %}
+{% set version = "2.15.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-texttospeech-{{ version }}.tar.gz
-  sha256: a23738366988faf4d265200f57c5de4312efa3d14bb434b92a6e541713f5d906
+  sha256: 77863ed54f78fcd2e194ca113c9cc5e7e40b87306ccec1ba307e46dcf81f0737
 
 build:
   noarch: python
@@ -41,8 +41,8 @@ about:
   license_file: LICENSE
   description: "Google Cloud Text-to-Speech API synthesizes natural-sounding speech by applying powerful neural network models.\nSee the [quick start guide](https://googleapis.dev/python/texttospeech/latest/index.html#quick-start)."
 
-  doc_url: https://googleapis.dev/python/texttospeech/latest/index.html
-  dev_url: https://github.com/googleapis/python-texttospeech
+  doc_url: https://cloud.google.com/python/docs/reference/texttospeech/latest
+  dev_url: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-texttospeech
 
 extra:
   recipe-maintainers:
