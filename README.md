@@ -9,9 +9,9 @@ Package license: Apache-2.0
 
 Summary: Google Cloud Texttospeech API client library
 
-Development: https://github.com/googleapis/python-texttospeech
+Development: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-texttospeech
 
-Documentation: https://googleapis.dev/python/texttospeech/latest/index.html
+Documentation: https://cloud.google.com/python/docs/reference/texttospeech/latest
 
 Google Cloud Text-to-Speech API synthesizes natural-sounding speech by applying powerful neural network models.
 See the [quick start guide](https://googleapis.dev/python/texttospeech/latest/index.html#quick-start).
