@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-texttospeech
-  version: "2.35.0"
+  version: "2.36.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/google_cloud_texttospeech-${{ version }}.tar.gz
-  sha256: b62a5eeca410bcaab0365328aefb8ba1206e42760ae408c0420a1b7daeedb5ba
+  sha256: 6c605af7e4774c1bac99fcaaf4538f152b10bba7738a23f42184557f444dc6b7
 
 build:
   number: 0
